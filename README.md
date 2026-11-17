@@ -4,6 +4,8 @@ A single-page Next.js app for turning PostgreSQL DDL into an interactive ER diag
 
 Paste `CREATE TABLE` / foreign-key DDL, click **Render Graph**, and explore the generated schema graph powered by React Flow and dagre layout.
 
+**Live demo:** https://schema-visualizer-plum.vercel.app
+
 ## Stack
 
 - Next.js 16.2.9 App Router
@@ -112,3 +114,7 @@ src/lib/
 1. Clear current Fallow dead-code findings.
 2. Start Phase 4 from `ROADMAP.md`: parser helper dedupe and graph construction refactors.
 3. Keep `bun run test`, `bun run typecheck`, and `bun run build` green after each small change.
+
+## Status and contributions
+
+No license and no CONTRIBUTING file; issues are enabled, so bug reports are welcome but there is no formal contribution policy. The suite has roughly 64 test cases across 10 files. A duplicate copy lives at `~/dev/node/supabase/schema-visualizer` — keep one canonical folder.
